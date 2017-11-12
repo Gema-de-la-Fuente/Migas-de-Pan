@@ -1,0 +1,89 @@
+<!DOCTYPE>
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+            <title>Hola-dola-hola-hola-hola</title>
+            <script type="text/javascript" src="../js/versionCodeMigas.js"></script>
+            
+            <style>
+                
+                main{
+                    background-color: rosybrown;
+                }
+                ul {
+                    list-style-type: none; /*elimino los puntos del ul*/
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: indianred;
+                }
+
+                li {
+                    float: left;
+                }
+
+                li a {
+                    display: inline-block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+
+                li a:hover {
+                    background-color: red;
+                }
+                h1{
+                    text-align: center;
+                }
+                section{
+                    margin-top: 1.5%;
+                    height: 72%;
+                    margin-bottom: 0%;
+                }
+                article{
+                    padding:2%;
+                }
+                footer{
+                    padding:0.5%;
+                    padding-left: 1%;
+                    margin-top:0%;
+                    background-color: black;
+                    color: white;
+                    height: 5%;
+                }
+               #urlMigasDePan{
+                    margin:1px ;
+                    background-color: #E0ECFF;   
+                    
+                }
+            </style>
+            
+        </head>
+        <body>
+            <header>
+                <h1>Hola-dola-hola-hola-hola</h1>
+                <div id="urlMigasDePan"></div>
+                <script type="text/javascript">
+                    document.getElementById("urlMigasDePan").innerHTML =generateBC(location.href, "/");
+                </script>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="Hola-dola-hola-hola-hola/index.html">Hola-dola-hola-hola-hola</a></li>
+                        <li><a href="tengo-mas-de-treinta-palabras-ahora-si/index.html">tengo-mas-de-treinta-palabras-ahora-si</a></li>
+                        <li><a href="tengo-mas-de-treinta-palabras-ahora-si/Ahora/index.html">Ahora</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <article>texto1</article>
+                    <article>texto2</article>
+                </section>
+            </main>
+            <footer>    
+                Derechos de autor
+            </footer>
+        </body>
+    </html>
